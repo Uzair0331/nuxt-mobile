@@ -1,0 +1,1 @@
+<template> <h1 style="text-align: center;">Welcome to Nuxt-Mobile</h1></template>
