@@ -3,15 +3,15 @@
     <div v-if="alertMessage" class="text-center p-3 bg-red-500 text-white">
       {{ alertMessage }}
     </div>
-    <div class="flex justify-center w-full items-center space-x-10">
+    <div class="flex justify-center w-full items-center space-x-10 mt-10">
       <img
-        width="550"
-        height="450"
-        src="/images/iphone13-mini.webp"
-        alt="iphone13-mini"
+        width="350"
+        height="350"
+        src="/images/aipod-pro-1st.jpg"
+        alt="aipod-pro-1st"
       />
       <div class="text-center">
-        <h1 class="text-3xl mb-4">iPhone 13 mini</h1>
+        <h1 class="text-3xl mb-4">Airpod pro 1st gen </h1>
         <div class="flex flex-col">
           <button @click="addToCart" class="p-3 bg-[#2a0040] text-white rounded-lg mt-3">Buy now</button>
           <button @click="removeFromCart" class="p-3 bg-[#7a303b] text-white rounded-lg mt-3">Remove item</button>
@@ -23,7 +23,7 @@
 <script setup>
 import { useCart } from '~/composable/states';
 const fullname = computed(()=>{
-    return name = `iphone-13-mini`
+    return name = `aipod-pro-1st`
 })
 const cart =useCart();
 const alertMessage = ref('');
