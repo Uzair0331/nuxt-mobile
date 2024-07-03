@@ -19,7 +19,7 @@
         <img class="mt-2" width="220" src="/images/airpod-pro-3rd.jpg" alt="iphone13">
     </div>
     </NuxtLink>
-    <NuxtLink to="iphone/iphone-13-mini" class=" shadow-lg text-center border rounded-lg  ">
+    <NuxtLink to="airpods/aipod-max" class=" shadow-lg text-center border rounded-lg  ">
         <h1 class="mt-2">Airpod max  </h1>
         <div class="flex justify-center">
         <img class="mt-2" width="250" src="/images/airpod-max.jpg" alt="iphone13-mini">

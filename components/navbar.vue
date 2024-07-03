@@ -3,7 +3,8 @@
     <NuxtLink to="/" >Home</NuxtLink>
     <NuxtLink to="/iphone">Iphones</NuxtLink>
     <NuxtLink to="/airpods">AirPods</NuxtLink>
-    <NuxtLink to="/about">About</NuxtLink>
+    <NuxtLink to="/macbooks">Macbooks</NuxtLink>
+    <NuxtLink to="/totalcart">Total purchasing</NuxtLink>
     <p>cart ({{ cart.length }})</p>
   </nav>
   </div></template>

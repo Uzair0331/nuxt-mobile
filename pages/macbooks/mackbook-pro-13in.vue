@@ -7,11 +7,11 @@
       <img
         width="350"
         height="350"
-        src="/images/airpod-max.jpg"
-        alt="airpod-max"
+        src="/images/mackbook13pro.jpg"
+        alt="MackBook Pro 13in "
       />
       <div class="text-center">
-        <h1 class="text-3xl mb-4">Airpod Max </h1>
+        <h1 class="text-3xl mb-4">MackBook Pro 13in </h1>
         <div class="flex flex-col">
           <button @click="addToCart" class="p-3 bg-[#2a0040] text-white rounded-lg mt-3">Buy now</button>
           <button @click="removeFromCart" class="p-3 bg-[#7a303b] text-white rounded-lg mt-3">Remove item</button>
@@ -23,7 +23,7 @@
 <script setup>
 import { useCart } from '~/composable/states';
 const fullname = computed(()=>{
-    return name = `airpod-max`
+    return name = `mackbook-pro-13in`
 })
 const cart =useCart();
 const alertMessage = ref('');
