@@ -1,3 +1,17 @@
+<script setup lang="ts">
+import Footer from '~/components/Footer.vue';
+</script>
+
 <template>
-    <Welcome/>
+    <FirstComponent />
+    <Banner />
+    <FirstCard />
+    <BrowseTalent />
+    <BrowseeBox />
+    <EnterpriseCard />
+    <ForClient />
+    <Businessescard />
+    <EnterpriseLeft />
+    <Supprot />
+    <Footer />
 </template>
