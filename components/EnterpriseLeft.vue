@@ -13,20 +13,20 @@
         your career or business to new heights.
       </div>
       <hr class="h-px ml-12 lg:mt-[100px] mr-12 my-8 bg-white border-0" />
-      <div class="grid grid-cols-3   mb-10 text-white lg:pl-14">
+      <div class="grid grid-cols-3 pl-10   mb-10 text-white lg:pl-14">
         <div class="flex">
-          <h1>Find opportunities for <br> every stage of your <br> freelance career
+          <h1>Find opportunities for <br>every stage of your <br> freelance career
           </h1>
         </div>
         <div class="flex">
-          <h1>Control when, where, <br> and how you work
+          <h1>Control when, where, <br>and how you work
           </h1>
         </div>
         <div class="flex">
-          <h1>Explore different <br> ways to earn
+          <h1>Explore different <br>ways to earn
           </h1>
         </div>
-        <div class="flex mt-10  w-full">
+        <div class="flex lg:mt-10  w-full">
           <WhiteAppButton>Find opportunities</WhiteAppButton>
         </div>
 

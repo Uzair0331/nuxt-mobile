@@ -1,23 +1,23 @@
 <template>
   <div class=" fixed w-full lg:-mt-[150px] " style="z-index: 1000000;">
-    <nav class="flex flex-wrap shadow-md p-5 justify-between gap-6 bg-[#ffffff] text-sm">
+    <nav class="flex flex-wrap  p-5 justify-between border-b-2 border-gray-100 gap-6 bg-[#ffffff] text-sm">
       <div class="flex gap-6 items-center">
         <img width="80" height="80" src="/images/upwork.svg" alt="macbook15" />
         <div class="hidden md:flex gap-6">
-          <NuxtLink class="flex" to="/">Find talent <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
+          <NuxtLink class="flex hover:text-[#14a800]" to="/">Find talent <svg class="w-3 h-3 mt-1 ml-1 text-black " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m19 9-7 7-7-7"/>
 </svg>
 </NuxtLink>
-          <NuxtLink class="flex" to="/">Find work  <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
+          <NuxtLink class="flex hover:text-[#14a800]" to="/">Find work  <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m19 9-7 7-7-7"/>
 </svg></NuxtLink>
-          <NuxtLink class="flex" to="/">Why Upwork  <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
+          <NuxtLink class="flex hover:text-[#14a800]" to="/">Why Upwork  <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m19 9-7 7-7-7"/>
 </svg></NuxtLink>
-          <NuxtLink class="flex" to="/">What's New  <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
+          <NuxtLink class="flex hover:text-[#14a800]" to="/">What's New  <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m19 9-7 7-7-7"/>
 </svg></NuxtLink>
-          <NuxtLink class="flex" to="/">Enterprise <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
+          <NuxtLink class="flex hover:text-[#14a800]" to="/">Enterprise <svg class="w-3 h-3 mt-1 ml-1 text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="m19 9-7 7-7-7"/>
 </svg></NuxtLink>
         </div>

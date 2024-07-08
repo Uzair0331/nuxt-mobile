@@ -13,5 +13,6 @@ import Footer from '~/components/Footer.vue';
     <Businessescard />
     <EnterpriseLeft />
     <Supprot />
+    <Tabs/>
     <Footer />
 </template>
